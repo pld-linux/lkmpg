@@ -6,6 +6,7 @@ Release:	1
 License:	distributable
 Group:		Documentation
 Source0:	http://www.tldp.org/LDP/%{name}.html.tar.gz
+# Source0-md5:	5929354a10f0e5edaeea33cc15a1a6f1
 URL:		http://www.tldp.org/LDP/lkmpg/mpg.html
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
