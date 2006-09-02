@@ -8,6 +8,7 @@ Group:		Documentation
 Source0:	http://www.tldp.org/LDP/lkmpg/2.6/%{name}.html.tar.gz
 # Source0-md5:	a062c70959bea6adc785fd57bcaadb89
 URL:		http://www.tldp.org/LDP/lkmpg/2.6/html/index.html
+Requires:	LDP-base
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -23,8 +24,7 @@ Dokument dla ludzi chc±cych pisaæ modu³y do j±dra Linuksa.
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_docdir}/LDP/%{name}
-
-cp -ar * $RPM_BUILD_ROOT%{_docdir}/LDP/%{name}
+cp -a * $RPM_BUILD_ROOT%{_docdir}/LDP/%{name}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
