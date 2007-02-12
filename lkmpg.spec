@@ -1,5 +1,5 @@
 Summary:	LDP Linux Kernel Module Programming Guide
-Summary(pl):	Podrêcznik pisania modu³ów do j±dra Linuksa
+Summary(pl.UTF-8):   PodrÄ™cznik pisania moduÅ‚Ã³w do jÄ…dra Linuksa
 Name:		lkmpg
 Version:	2.6.3
 Release:	1
@@ -15,8 +15,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This document is for people who want to write Linux kernel modules.
 
-%description -l pl
-Dokument dla ludzi chc±cych pisaæ modu³y do j±dra Linuksa.
+%description -l pl.UTF-8
+Dokument dla ludzi chcÄ…cych pisaÄ‡ moduÅ‚y do jÄ…dra Linuksa.
 
 %prep
 %setup -q -n %{name}
