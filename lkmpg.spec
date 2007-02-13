@@ -1,5 +1,5 @@
 Summary:	LDP Linux Kernel Module Programming Guide
-Summary(pl.UTF-8):   Podręcznik pisania modułów do jądra Linuksa
+Summary(pl.UTF-8):	Podręcznik pisania modułów do jądra Linuksa
 Name:		lkmpg
 Version:	2.6.3
 Release:	1
